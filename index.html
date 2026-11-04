@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>upload-tool</title>
+<style>
+  :root { color-scheme: light dark; --fg: #222; --bg: #fff; --link: #0b57d0; --muted: #666; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ddd; --bg: #141414; --link: #8ab4f8; --muted: #999; } }
+  body { font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; max-width: 44rem; margin: 2rem auto; padding: 0 16px; color: var(--fg); background: var(--bg); }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<h1>upload-tool</h1>
+<p>YouTube のチャンネルの持ち主が、自分のチャンネルに動画を上げるための、個人用の道具です。持ち主のパソコンの上でだけ動きます。</p>
+
+<h2>できること</h2>
+<ul>
+  <li>持ち主が許可したチャンネルに、動画・題名・説明・サムネイルを上げ、公開の日時を予約します。</li>
+  <li>上げた動画の処理と、公開の予約の状態を確かめます。</li>
+</ul>
+
+<h2 id="terms">利用規約</h2>
+<p>この道具は YouTube API サービスを使います。この道具を使う人は、<a href="https://www.youtube.com/t/terms">YouTube 利用規約</a>に従うことに同意したものとします。</p>
+
+<h2 id="privacy">プライバシーポリシー</h2>
+<ul>
+  <li>この道具は YouTube API サービスを使います。Google による情報の扱いは、<a href="http://www.google.com/policies/privacy">Google のプライバシーポリシー</a>に書かれています。</li>
+  <li>使う人は、チャンネルの持ち主1人だけです。ほかの人の情報は集めません。</li>
+  <li>扱う情報: 持ち主が許可した Google アカウントのチャンネルに動画を上げることと、上げた動画の情報(処理の状態・公開の設定)を読むことだけです。</li>
+  <li>保存: 許可の情報(トークン)と、読んだ動画の情報は、持ち主のパソコンの中に保存します。外へ送らず、第三者に渡しません。</li>
+  <li>広告は出しません。クッキーは使いません。</li>
+  <li>許可の取り消し: <a href="https://security.google.com/settings/security/permissions">Google のセキュリティ設定の頁</a>から、いつでも取り消せます。持ち主のパソコンの中の許可の情報を消しても、使えなくなります。</li>
+  <li>問い合わせ: このリポジトリの <a href="https://github.com/tomoya72457/upload-tool/issues">Issues</a> へお寄せください。</li>
+  <li>この方針を変える時は、この頁を書き換えます。</li>
+</ul>
+<p class="muted">最終更新: 2026-11-04</p>
+</body>
+</html>
